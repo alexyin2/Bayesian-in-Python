@@ -3,7 +3,7 @@ import pandas as pd
 from scipy import stats
 
 # We'll use the dataset 'advertisement_clicks.csv'
-df = pd.read_csv('/Users/alex/Desktop/DeepLearningPrerequisites/Git_Code&Dataset/machine_learning_examples/ab_testing/advertisement_clicks.csv')
+df = pd.read_csv('advertisement_clicks.csv')
 A = df[df.iloc[:, 0] == 'A']
 B = df[df.iloc[:, 0] == 'B']
 mean_a = A.iloc[:, 1].mean()
