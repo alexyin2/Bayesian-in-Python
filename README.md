@@ -17,9 +17,9 @@ We'll have to consider two cases in calculating p-value:
 > >* In this case, we'll take t-test as an example.   
 > >* In t-test, there is ![sqrt(n)](https://latex.codecogs.com/gif.latex?%5Csqrt%7Bn%7D) in our denominator.  
 > >* It means that although we can increase the sample to make our t smaller, there's not much big influence comparing n = 100 to n = 300 because there's a square root.   
-> >* So if the company or labotory want to reject the null hypothesis, they may need to choose n = 1000, which may increase the cost and may not be profitable.  
+> >* So if the company or labotory want to reject the null hypothesis, they may need to choose n = 1000, which may increase the cost for finding more samples and may not be profitable.  
 
-> 2. How large should be the difference that we will accept it as useful or meaningful?
-> >Keep in mind that there's always a balance between money and efficiency.
-> >For example, if we really increase our sample and showed that there's a difference between A for 30.0% click rate and B for 30.1% click rate.
-> >Is it really meaningful for the company to select B?
+> 2. How large should be the difference that we will accept it as useful or meaningful?  
+> >* Keep in mind that there's always a balance between money and efficiency.  
+> >* For example, if we really increase our sample and showed that there's a difference between A for 30.0% click rate and B for 30.1% click rate.  
+> >* Is it really meaningful for the company to select B?  
