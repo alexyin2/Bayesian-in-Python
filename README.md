@@ -35,5 +35,11 @@ We'll have to consider two cases in calculating p-value:
 > >The purpose of this test is to see that if the distribution follows what we expected.  
 > >For example, we would like to see if babies born in different months are different  
 
-> 2. Chi square test of Independence  
+> 2. Chi square test of Independence  
+> >The purpose of this test is to see if the two variables are independent.  
+> >For example, we would like to see if failing a class or not in subject A is independent to failing a class or not in subject B.  
 
+> 3. Chi square test of Homogeneity
+> >The step of doing this test is the same as Chi square test of Independence, but the purpose is different.  
+> >The purpose of this test is to see if the data are from the same population or if they all follow the same distributions.
+> >For example, we would like to see if 
