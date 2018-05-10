@@ -7,9 +7,9 @@
 ## A/B test
 1. We need to know what t-test means in statistics. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Student%27s_t-test)
 2. Bonferroni Correction. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Bonferroni_correction)
-3. Chi-Squared test. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Chi-squared_test)
+3. Chi-Squared test. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Chi-squared_test) and [This Website](http://www.ling.upenn.edu/~clight/chisquared.htm)
 4. There is always a question that bothers me since I've learned p-value.  
-This is a statement quoted from a research paper: **_If such hypothesis is not rejected, it is usually because the sample size is too small.(Nunnally 1960)_**  
+This is a statement quoted from a research paper: **_If such hypothesis is not rejected, it is usually because the sample size is too small.(Nunnally 1960)_**  
 If so, then why is p-value still so popular in the world and lots of statistics experiments still use it as a judgement?
 
 __*Ans*__ : 
