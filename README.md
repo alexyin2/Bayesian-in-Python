@@ -32,14 +32,14 @@ We'll have to consider two cases in calculating p-value:
 2. Also Remember that Chi square test requires that the data cannot be less than 5 in each sample.(Not that specific)  
 3. I'll start introduce three types of Chi square test:  
 > 1. Chi square Goodness of Fit  
-> >The purpose of this test is to see that if the distribution follows what we expected.  
-> >For example, we would like to see if babies born in different months are different  
+> >The purpose of this test is to see that if the distribution follows what we expected.  
+> >For example, we would like to see if babies born in different months are different.  
 
 > 2. Chi square test of Independence  
-> >The purpose of this test is to see if the two variables are independent.  
+> >The purpose of this test is to see if the two variables are independent.  
 > >For example, we would like to see if failing a class or not in subject A is independent to failing a class or not in subject B.  
 
 > 3. Chi square test of Homogeneity
-> >The step of doing this test is the same as Chi square test of Independence, but the purpose is different.  
-> >The purpose of this test is to see if the data are from the same population or if they all follow the same distributions.
+> >The step of doing this test is the same as Chi square test of Independence, but the purpose is different.  
+> >The purpose of this test is to see if the data are from the same population or if they all follow the same distributions.  
 > >For example, we would like to see if 
