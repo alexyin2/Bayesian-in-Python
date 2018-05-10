@@ -68,4 +68,15 @@ def run_experiment(p1, p2, N):
     plt.plot(np.ones(N)*0.05)  # set alpha = 0.05
     plt.show()
 
-run_experiment(0.1, 0.11, 20000)
+run_experiment(0.1, 0.11, 20000)  # We can run it several times
+
+"""
+Summary:
+    We can see that if want to show there's a difference between ad A and ad B
+    when one equals 0.1 and the other equals 0.11, we need to have a really 
+    large sample size.
+    
+    In real world examples, it's a question for the company that is it worth to 
+    collect so many data and is the difference of 0.11 and 0.1 really meaningful
+    for the company?
+"""
