@@ -27,9 +27,10 @@ We'll have to consider two cases in calculating p-value:
 > >* Is it really meaningful for the company to select B?  
 
 ***
-## Chi square test  
+## Chi square test  
 1. There are three types of Chi square tests and each fit in different purposes.  
 2. Also Remember that Chi square test requires that the data cannot be less than 5 in each sample.(Not that specific)  
+3. Except Chi square Goodness of fit, the others' data have to be in a contingency table.  
 3. I'll start introduce three types of Chi square test:  
 > 1. Chi square Goodness of Fit  
 > >* The purpose of this test is to see that if the distribution follows what we expected.   
@@ -42,4 +43,6 @@ We'll have to consider two cases in calculating p-value:
 > 3. Chi square test of Homogeneity
 > >* The step of doing this test is the same as Chi square test of Independence, but the purpose is different.  
 > >* The purpose of this test is to see if the data are from the same population or if they all follow the same distributions.  
-> >* For example, we would like to see if 
+> >* For example, we would like to see if people who voted for candidate A has the same distribution as people who voted for candidate B.  
+
+
