@@ -4,7 +4,7 @@
 * This practice is based on [LazyProgrammer.me](https://github.com/lazyprogrammer)
 
 ***
-## A/B test
+## Student's t-test
 1. We need to know what t-test means in statistics. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Student%27s_t-test)
 2. Bonferroni Correction. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Bonferroni_correction)
 3. Chi-Squared test. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Chi-squared_test) and [This Website](http://www.ling.upenn.edu/~clight/chisquared.htm)
@@ -25,3 +25,15 @@ We'll have to consider two cases in calculating p-value:
 > >* Keep in mind that there's always a balance between money and efficiency.  
 > >* For example, if we really increase our sample and showed that there's a difference between A for 30.0% click rate and B for 30.1% click rate.  
 > >* Is it really meaningful for the company to select B?  
+
+***
+## Chi square test  
+1. There are three types of Chi square tests and each fit in different purposes.  
+2. Also Remember that Chi square test requires that the data cannot be less than 5 in each sample.(Not that specific)  
+3. I'll start introduce three types of Chi square test:  
+> 1. Chi square Goodness of Fit  
+> >The purpose of this test is to see that if the distribution follows what we expected.  
+> >For example, we would like to see if babies born in different months are different  
+
+> 2. Chi square test of Independence  
+
