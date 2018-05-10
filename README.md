@@ -7,7 +7,6 @@
 ## Student's t-test
 1. We need to know what t-test means in statistics. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Student%27s_t-test)
 2. Bonferroni Correction. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Bonferroni_correction)
-3. Chi-Squared test. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Chi-squared_test) , [This Website](http://www.ling.upenn.edu/~clight/chisquared.htm) and [This One](http://yashi4sale.pixnet.net/blog/post/45635923-淺談卡方檢定) if you can read Chinese.
 4. There is always a question that bothers me since I've learned p-value.  
 This is a statement quoted from a research paper: **_If such hypothesis is not rejected, it is usually because the sample size is too small.(Nunnally 1960)_**  
 If so, then why is p-value still so popular in the world and lots of statistics experiments still use it as a judgement?
@@ -30,8 +29,9 @@ We'll have to consider two cases in calculating p-value:
 ## Chi square test  
 1. There are three types of Chi square tests and each fit in different purposes.  
 2. Also Remember that Chi square test requires that the data cannot be less than 5 in each sample.(Not that specific)  
-3. Except Chi square Goodness of fit, the others' data have to be in a contingency table.  
-3. I'll start introduce three types of Chi square test:  
+3. For extent reading, I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Chi-squared_test) , [This Website](http://www.ling.upenn.edu/~clight/chisquared.htm) and [This One](http://yashi4sale.pixnet.net/blog/post/45635923-淺談卡方檢定) if you can read Chinese.  
+4. Except Chi square Goodness of fit, the others' data have to be in a contingency table.  
+5. I'll start introduce three types of Chi square test:  
 > 1. Chi square Goodness of Fit  
 > >* The purpose of this test is to see that if the distribution follows what we expected.   
 > >* For example, we would like to see if babies born in different months are different.  
