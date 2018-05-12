@@ -3,6 +3,7 @@
 * I'll write down anything that I've learned and thought it was important in this procedure. 
 * This practice is based on [LazyProgrammer.me](https://github.com/lazyprogrammer)
 
+### Before going on Bayesian, we'll first go through the traditional A/B testing in Statistics.
 ***
 ## Student's t-test
 1. We need to know what t-test means in statistics. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Student%27s_t-test)
@@ -25,7 +26,7 @@ We'll have to consider two cases in calculating p-value:
 > >* For example, if we really increase our sample and showed that there's a difference between A for 30.0% click rate and B for 30.1% click rate.  
 > >* Is it really meaningful for the company to select B?  
 
-***
+
 ## Chi square test  
 1. There are three types of Chi square tests and each fit in different purposes.  
 2. Also Remember that Chi square test requires that the data cannot be less than 5 in each sample.(Not that specific)  
@@ -45,4 +46,6 @@ We'll have to consider two cases in calculating p-value:
 > >* The purpose of this test is to see if the data are from the same population or if they all follow the same distributions.  
 > >* For example, we would like to see if people who voted for candidate A has the same distribution as people who voted for candidate B.  
 
-
+### After understand how traditional A/B testing works, we'll now get through theories about Bayesian.
+***
+## Multi-Armed Bandit
