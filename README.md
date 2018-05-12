@@ -49,3 +49,5 @@ We'll have to consider two cases in calculating p-value:
 ### After understand how traditional A/B testing works, we'll now get through theories about Bayesian.
 ***
 ## Multi-Armed Bandit
+
+## Epsiolon Greedy
