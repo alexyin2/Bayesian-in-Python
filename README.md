@@ -46,14 +46,14 @@ We'll have to consider two cases in calculating p-value:
 > >* The purpose of this test is to see if the data are from the same population or if they all follow the same distributions.  
 > >* For example, we would like to see if people who voted for candidate A has the same distribution as people who voted for candidate B.  
 
-#### After understand how traditional A/B testing works, we'll now get through some other theories different from A/B testing.
+## After understand how traditional A/B testing works, we'll now get through some other theories different from A/B testing.
 ***
 ### Multi-Armed Bandit
 
 ### Epsiolon Greedy
 
 
-#### Now we'll get throght the Bayesion theory.
+## Now we'll get throght the Bayesion theory.
 ***
 ### Bayesian Paradigm
 ![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/BayesianParadigm.png)
