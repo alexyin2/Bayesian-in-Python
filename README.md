@@ -56,6 +56,8 @@ We'll have to consider two cases in calculating p-value:
 ### Now we'll get throght the Bayesion theory.
 ***
 #### Bayesian Paradigm
-![image](picture or gif url)
+![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/BayesianParadigm.png)
 #### Beta Distribution
-![image](picture or gif url)
+![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/BetaFormula.png)
+![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/BetaPDF.png)
+
