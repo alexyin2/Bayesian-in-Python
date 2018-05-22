@@ -3,9 +3,9 @@
 * I'll write down anything that I've learned and thought it was important in this procedure. 
 * This practice is based on [LazyProgrammer.me](https://github.com/lazyprogrammer)
 
-### Before going on Bayesian, we'll first go through the traditional A/B testing in Statistics.
+## Before going on Bayesian, we'll first go through the traditional A/B testing in Statistics.
 ***
-#### Student's t-test
+### Student's t-test
 1. We need to know what t-test means in statistics. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Student%27s_t-test)
 2. Bonferroni Correction. I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Bonferroni_correction)
 4. There is always a question that bothers me since I've learned p-value.  
@@ -27,7 +27,7 @@ We'll have to consider two cases in calculating p-value:
 > >* Is it really meaningful for the company to select B?  
 
 
-#### Chi square test  
+### Chi square test  
 1. There are three types of Chi square tests and each fit in different purposes.  
 2. Also Remember that Chi square test requires that the data cannot be less than 5 in each sample.(Not that specific)  
 3. For extent reading, I'll suggest [Wikipedia](https://en.wikipedia.org/wiki/Chi-squared_test) , [This Website](http://www.ling.upenn.edu/~clight/chisquared.htm) and [This One](http://yashi4sale.pixnet.net/blog/post/45635923-淺談卡方檢定) if you can read Chinese.  
@@ -46,18 +46,18 @@ We'll have to consider two cases in calculating p-value:
 > >* The purpose of this test is to see if the data are from the same population or if they all follow the same distributions.  
 > >* For example, we would like to see if people who voted for candidate A has the same distribution as people who voted for candidate B.  
 
-### After understand how traditional A/B testing works, we'll now get through some other theories different from A/B testing.
+#### After understand how traditional A/B testing works, we'll now get through some other theories different from A/B testing.
 ***
-#### Multi-Armed Bandit
+### Multi-Armed Bandit
 
-#### Epsiolon Greedy
+### Epsiolon Greedy
 
 
-### Now we'll get throght the Bayesion theory.
+#### Now we'll get throght the Bayesion theory.
 ***
-#### Bayesian Paradigm
+### Bayesian Paradigm
 ![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/BayesianParadigm.png)
-#### Beta Distribution
+### Beta Distribution
 Beta Distribution fixed theta to be in [0, 1], and it's used to describe probability.  
 Remeber that uniform distribution belongs in beta distribution when a = 0, b = 0
 ![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/BetaFormula.png)
