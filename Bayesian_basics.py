@@ -14,7 +14,7 @@ class Bandit(object):
     def pull(self):
         return np.random.random() < self.p
 
-    def sample(self):
+    def sample(self):  # Sampling from current beta distribution
         return np.random.beta(self.a, self.b)
 
     def update(self, x):
@@ -22,10 +22,10 @@ class Bandit(object):
         self.b += 1 - x
         
 
-def plot(bandits, trial):
+def plot(bandits, trial):  # Plot the pdf of each bandit
     x = np.linspace(0, 1, 200)
-    for b in bandits:
-        y = beta.pdf(x, b.a, b.b)  # Here, because b.a = 1 and b.b = 1, so it's a uniform distribution
+    for b in bandits:  
+        y = beta.pdf(x, b.a, b.b)  # Returns the pdf of x, given a and b
         plt.plot(x, y, label="real p: %.4f" % b.p)
     plt.title("Bandit distributions after %s trials" % trial)
     plt.legend()
@@ -38,7 +38,7 @@ def experiment():
     for i in range(NUM_TRIALS):
         # take a sample from each bandit
         bestb = None  # The bandit whose arm we eventually pull
-        maxsample = -1
+        maxsample = -1  # Keep track of the max sample we've got
         allsamples = [] # let's collect these just to print for debugging
         for b in bandits:
             sample = b.sample()
@@ -57,6 +57,21 @@ def experiment():
         bestb.update(x)
 
 
+'''
+I try my best to write down how it works in experiment()
+
+We have three bandits with different probability which we don't know and would like to estimate it.
+At the beginning, all three bandits seems same to us and our prior is they're all following uniform distribution.
+So we will first randomly pick one to try.
+Then we will update the information to the bandit we've pull.
+As the number of trying increases, we will more likely to pull the bandit that has a higher probability to win.
+So the bandit with highest probability to win will be pulled more and more times, making the estimation more precise.
+
+This is the core of Bayesian, we don't need to spend our money to the bandits with lower probability to win.
+'''
+
+
+# Run the experiment
 if __name__ == "__main__":
     experiment()
 
