@@ -65,5 +65,5 @@ Remember that uniform distribution belongs in beta distribution when a = 0, b = 
 ![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/BetaPDF.png)
 
 Next we'll prove that P(x) * p(x|theta) is also an beta distribution.
-![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/MathProof.jpg)
+![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/Mathproof.jpg)
 Notice that the __*Expectation value*__ and __*Variance*__ are effected by our sample data.  
