@@ -52,14 +52,16 @@ We'll have to consider two cases in calculating p-value:
 
 ### Epsiolon Greedy
 
-
-## Now we'll get throght the Bayesion theory.
+  
+## Now we'll get through the Bayesion theory.
 ***
 ### Bayesian Paradigm
 ![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/BayesianParadigm.png)
 ### Beta Distribution
 Beta Distribution fixed theta to be in [0, 1], and it's used to describe probability.  
-Remeber that uniform distribution belongs in beta distribution when a = 0, b = 0
+Remember that uniform distribution belongs in beta distribution when a = 0, b = 0
+
 ![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/BetaFormula.png)
 ![image](https://github.com/alexyin2/Bayesian-in-Python/blob/master/Image/BetaPDF.png)
-Next we'll prove that P(x) * p(x|theta) is
+
+Next we'll prove that P(x) * p(x|theta) is also an beta distribution.
