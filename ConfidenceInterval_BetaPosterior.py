@@ -1,5 +1,5 @@
 # This is a script that shows the traditional Confidence Interval and Posterior estimation.
-# We can find out that as our sample increases, finally the two will be pretty smiliar.
+# We can find out that as our sample increases, finally the two will be pretty similar.
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import beta, norm
